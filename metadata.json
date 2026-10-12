@@ -1,0 +1,7 @@
+{
+  "name": "UzAutoTrailer · Lead CRM",
+  "description": "UzAutoTrailer sotuv bo‘limi uchun mijozlar va leadlarni boshqarish tizimi (CRM)",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
