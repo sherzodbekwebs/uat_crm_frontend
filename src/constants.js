@@ -64,6 +64,6 @@ export const date = (v) =>
   v ? new Date(v).toLocaleString('uz-UZ', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '—';
 export const money = (v) => new Intl.NumberFormat('uz-UZ').format(v || 0);
 export function payload(l) {
-  const { id, version, createdAt, updatedAt, ...data } = l;
+  const { id, version, createdAt, updatedAt, initialStatus, ...data } = l;
   return data;
 }

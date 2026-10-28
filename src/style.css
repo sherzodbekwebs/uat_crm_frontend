@@ -1465,3 +1465,15 @@ header.window-header {
   .login-card { grid-template-columns: 1fr; }
   .login-left-banner { display: none; }
 }
+
+/* Pending API operations */
+.loading-text { display: inline-flex; align-items: center; gap: 8px; }
+.loading-spinner, .spin { animation: crm-spin .85s linear infinite; flex-shrink: 0; }
+@keyframes crm-spin { to { transform: rotate(360deg); } }
+.request-loading, .operation-notice { position: fixed; z-index: 11000; padding: 12px 18px; border: 1px solid #bfdbfe; border-radius: 12px; background: #eff6ff; color: #1d4ed8; box-shadow: 0 4px 18px #0f172a18; font-size: 13px; pointer-events: none; max-width: calc(100vw - 32px); }
+.request-loading { bottom: 18px; right: 18px; }
+.operation-notice { top: 18px; left: 50%; transform: translateX(-50%); }
+.loading-fields { border: 0; margin: 0; min-width: 0; }
+button:disabled { cursor: wait; opacity: .6; }
+.loading-fields:disabled { opacity: .8; }
+@media (prefers-reduced-motion: reduce) { .loading-spinner, .spin { animation: none; } }

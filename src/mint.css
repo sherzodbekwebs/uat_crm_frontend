@@ -1,0 +1,108 @@
+
+/* Mint workspace palette */
+:root:not([data-theme="dark"]) { color-scheme: light; --bg-page:#eaf3f1; --bg-app:#eef5f3; --bg-card:#fff; --text-main:#183333; --text-muted:#6d8280; --border-light:#d6e3df; --border-card:#d6e3df; --primary:#087e8b; --primary-hover:#076976; --primary-light:#e4f4f3; --primary-border:#b6dcd9; }
+:root:not([data-theme="dark"]) body { background:#eaf3f1; color:#183333; }
+:root:not([data-theme="dark"]) .page-container { background:radial-gradient(ellipse at top right,#d2ebe9,transparent 55%),#edf4f2; }
+:root:not([data-theme="dark"]) aside.sidebar { background:linear-gradient(165deg,#12383a,#0a2428); border-color:#245052; box-shadow:0 8px 26px #173d3712; border-radius:26px; }
+:root:not([data-theme="dark"]) .sidebar-logo { color:#9be2e7; }
+:root:not([data-theme="dark"]) .sidebar-brand-name { color:#f0ffff; }
+:root:not([data-theme="dark"]) .sidebar-brand-name small { color:#8fbcbf; }
+:root:not([data-theme="dark"]) .dept-pill { background:#ffffff08; border-color:#ffffff0c; color:#ddf3f2; }
+:root:not([data-theme="dark"]) .dept-pill .tag { background:#1e5256; color:#a5e1e5; }
+:root:not([data-theme="dark"]) .nav-label { color:#83a9aa; }
+:root:not([data-theme="dark"]) nav.sidebar-nav button { border-radius:13px; color:#bfd7d6; }
+:root:not([data-theme="dark"]) nav.sidebar-nav button.active { background:#a1e0e4; color:#10484d; border-color:#b9f0f0; box-shadow:0 3px 15px #6dcbd31a; }
+:root:not([data-theme="dark"]) nav.sidebar-nav button:hover { background:#285153; color:#fff; }
+:root:not([data-theme="dark"]) nav.sidebar-nav button.active:hover { background:#afe8e9; color:#10484d; }
+:root:not([data-theme="dark"]) nav.sidebar-nav button b.count { background:#168d97; }
+:root:not([data-theme="dark"]) .sidebar-util-btn { color:#accacb; }
+:root:not([data-theme="dark"]) .user-avatar-circle,:root:not([data-theme="dark"]) .header-avatar { background:#d4eeee; color:#17666d; border:1px solid #a6cecb; }
+:root:not([data-theme="dark"]) .breadcrumb-trail,:root:not([data-theme="dark"]) .breadcrumb-trail span { color:#58716e; }
+:root:not([data-theme="dark"]) .header-icon-btn { border-radius:12px; background:#ffffffdb; border:1px solid #dae5e1; color:#436460; }
+:root:not([data-theme="dark"]) .system-status-indicator { background:#ffffffdb; color:#4c716b; border-color:#dce8e3; border-radius:12px; }
+:root:not([data-theme="dark"]) .system-status-indicator .status-blue-dot { background:#32a692; }
+:root:not([data-theme="dark"]) .page-title-row h1 { color:#102f30; font-size:36px; letter-spacing:-1.2px; }
+:root:not([data-theme="dark"]) .page-eyebrow { color:#49847f; }
+:root:not([data-theme="dark"]) .page-title-row p.desc { color:#647d78; }
+:root:not([data-theme="dark"]) .btn-primary { background:#087f8e; border:1px solid #128d9a; border-radius:13px; box-shadow:0 5px 13px #087f8e21; color:#fff; }
+:root:not([data-theme="dark"]) .btn-primary:hover { background:#076b78; }
+:root:not([data-theme="dark"]) .metrics-row { gap:12px; }
+:root:not([data-theme="dark"]) .kpi-card { background:#ffffffa6; border:1px solid #dce8e3; border-radius:15px; box-shadow:0 2px 7px #203e3504; padding:12px 16px; }
+:root:not([data-theme="dark"]) .kpi-card:hover { border-color:#a8cdc5; }
+:root:not([data-theme="dark"]) .kpi-icon-box { width:26px; height:26px; border-radius:8px; }
+:root:not([data-theme="dark"]) .kpi-icon-box.blue,:root:not([data-theme="dark"]) .kpi-icon-box.sky { background:#e4eff7; color:#5288b4; }
+:root:not([data-theme="dark"]) .kpi-icon-box.cyan { background:#dcf1e9; color:#269983; }
+:root:not([data-theme="dark"]) .kpi-icon-box.amber { background:#faf0d7; color:#bd942b; }
+:root:not([data-theme="dark"]) .kpi-label { color:#5c746d; }
+:root:not([data-theme="dark"]) .kpi-value { color:#163d37; font-size:25px; margin:7px 0 0; }
+:root:not([data-theme="dark"]) .kpi-footer { display:none; }
+:root:not([data-theme="dark"]) .kpi-growth { background:#dbf2e7; color:#298164; }
+:root:not([data-theme="dark"]) .filter-toolbar { background:#ffffff83; border-color:#dae5e0; border-radius:14px; box-shadow:none; }
+:root:not([data-theme="dark"]) .search-box input { color:#25463f; }
+:root:not([data-theme="dark"]) .search-box input::placeholder { color:#7b9189; }
+:root:not([data-theme="dark"]) .filter-select,:root:not([data-theme="dark"]) .date-input-field { background:#fff; border-color:#d9e5de; color:#4a685d; border-radius:9px; }
+:root:not([data-theme="dark"]) .btn-icon-square { background:#fff; color:#65837a; border-color:#d6e4db; }
+:root:not([data-theme="dark"]) .board-title-group h2 { color:#254b43; }
+:root:not([data-theme="dark"]) .board-title-group span.lead-count { color:#6d8b81; }
+:root:not([data-theme="dark"]) .board-header-row { border-bottom:1px solid #d6e4dd; padding-bottom:12px; }
+:root:not([data-theme="dark"]) .view-mode-toggle { background:#e5eeea; border:1px solid #d1dfd6; border-radius:12px; }
+:root:not([data-theme="dark"]) .view-btn { color:#678276; border-radius:9px; }
+:root:not([data-theme="dark"]) .view-btn.active { color:#176d69; background:#fff; box-shadow:0 2px 6px #1c483411; }
+:root:not([data-theme="dark"]) .kanban-board { gap:12px; grid-auto-columns:minmax(250px,1fr); padding-top:0; scrollbar-color:#a1beb3 #e1ece6; }
+:root:not([data-theme="dark"]) .kanban-column,:root:not([data-theme="dark"]) .kanban-column:first-child { background:#f4f8f6b3; border-color:#d7e3dc; border-radius:18px; box-shadow:inset 0 1px #fff; position:relative; }
+:root:not([data-theme="dark"]) .kanban-column::before { content:''; position:absolute; top:0; left:16px; right:16px; height:3px; border-radius:4px; background:var(--stage-color,#718d82); }
+:root:not([data-theme="dark"]) .column-header { color:#2b4940; font-size:13px; min-height:51px; padding:15px 13px; }
+:root:not([data-theme="dark"]) .column-dot { display:none; }
+:root:not([data-theme="dark"]) .column-count-badge { background:#e1ece5; color:#627f71; }
+:root:not([data-theme="dark"]) .column-cards-container { padding:0 9px 12px; gap:11px; }
+:root:not([data-theme="dark"]) .kanban-card { background:#ffffffed; border:1px solid #dce6df; border-radius:14px; padding:13px 12px; gap:7px; box-shadow:0 3px 8px #2b4d3310; position:relative; }
+:root:not([data-theme="dark"]) .kanban-card::before { content:''; position:absolute; left:0; top:14px; bottom:14px; width:3px; background:var(--stage-color,#718d82); border-radius:4px; }
+:root:not([data-theme="dark"]) .kanban-card:hover { border-color:#8fbeb0; box-shadow:0 7px 17px #234e3520; }
+:root:not([data-theme="dark"]) .card-title { color:#213d32; font-size:14px; }
+:root:not([data-theme="dark"]) .card-company { color:#718477; }
+:root:not([data-theme="dark"]) .card-product-tag { color:#498070; background:#f0f7f2; border-color:#e2ece3; padding:4px 6px; font-size:10px; }
+:root:not([data-theme="dark"]) .card-info-item { color:#75897b; font-size:10px; }
+:root:not([data-theme="dark"]) .card-footer { border-color:#edf2ed; gap:6px; padding-top:8px; }
+:root:not([data-theme="dark"]) .card-operator { color:#748a79; }
+:root:not([data-theme="dark"]) .avatar-tiny { color:#377c64; background:#dcefe3; border-color:#cae3d2; }
+:root:not([data-theme="dark"]) .card-amount { color:#2f6550; font-size:12px; }
+:root:not([data-theme="dark"]) .btn-col-add-quick,:root:not([data-theme="dark"]) .btn-add-in-empty { background:#ffffff7d; color:#67907c; border-color:#cbddd0; border-radius:10px; }
+:root:not([data-theme="dark"]) .btn-col-add-quick:hover,:root:not([data-theme="dark"]) .btn-add-in-empty:hover { background:#e1f0e5; }
+:root:not([data-theme="dark"]) .empty-col-card { background:transparent; border:1px dashed #d5e3d9; border-radius:13px; padding:22px 10px; }
+:root:not([data-theme="dark"]) .empty-col-card h4 { color:#8a9f91; font-size:11px; }
+:root:not([data-theme="dark"]) .empty-col-card p { color:#99ad9f; }
+:root:not([data-theme="dark"]) .empty-col-icon-circle { width:32px; height:32px; background:#eaf2ec !important; }
+:root:not([data-theme="dark"]) .table-container,:root:not([data-theme="dark"]) .stat-box { background:#fff; border-color:#dce7df; border-radius:16px; }
+:root:not([data-theme="dark"]) .data-table th { background:#f0f6f1; color:#607b68; border-color:#e1e9e2; }
+:root:not([data-theme="dark"]) .data-table td { color:#355440; border-color:#e6ede7; }
+:root:not([data-theme="dark"]) .data-table tr:hover td { background:#f2f8f3; }
+:root:not([data-theme="dark"]) .stat-box-head h3,:root:not([data-theme="dark"]) .donut-center-label strong { color:#254c38; }
+:root:not([data-theme="dark"]) .bar-track-bg { background:#e4eee6; }
+:root:not([data-theme="dark"]) .modal-backdrop { background:#102b346b; }
+:root:not([data-theme="dark"]) .modal-content { background:#fff; border-color:#d1e2db; box-shadow:0 25px 90px #183b3833; }
+:root:not([data-theme="dark"]) .modal-header,:root:not([data-theme="dark"]) .modal-footer { background:#f4f9f6; border-color:#dfeae4; }
+:root:not([data-theme="dark"]) .modal-header h2 { color:#234438; }
+:root:not([data-theme="dark"]) .field-label { color:#536f61; }
+:root:not([data-theme="dark"]) .field-label input,:root:not([data-theme="dark"]) .field-label select,:root:not([data-theme="dark"]) .field-label textarea { background:#fff; color:#284e3d; border-color:#d5e1d8; }
+:root:not([data-theme="dark"]) .field-label input:focus,:root:not([data-theme="dark"]) .field-label select:focus,:root:not([data-theme="dark"]) .field-label textarea:focus { border-color:#47a995; outline-color:#75c8b733; }
+:root:not([data-theme="dark"]) .product-selector-grid { background:#f7faf7; border-color:#dce8de; }
+:root:not([data-theme="dark"]) .product-selector-grid label { color:#587564; }
+:root:not([data-theme="dark"]) .btn-secondary { background:#fff; color:#52735f; border-color:#d6e2d9; border-radius:12px; }
+:root:not([data-theme="dark"]) .request-loading,:root:not([data-theme="dark"]) .operation-notice { background:#f0faf7; color:#23765f; border-color:#b8dacf; }
+:root:not([data-theme="dark"]) .login-card { background:#fff; border-color:#d8e7df; }
+:root:not([data-theme="dark"]) .login-right-form h1,:root:not([data-theme="dark"]) .login-right-form h2 { color:#204538; }
+:root:not([data-theme="dark"]) button:focus-visible,:root:not([data-theme="dark"]) article:focus-visible { outline-color:#2e9b8a; }
+:root:not([data-theme="dark"]) * { scrollbar-color:#a7beb2 #edf3ee; }
+@media(max-width:860px) { :root:not([data-theme="dark"]) .kpi-footer { display:none; } :root:not([data-theme="dark"]) .kanban-board { grid-auto-columns:260px; } :root:not([data-theme="dark"]) .page-title-row h1 { font-size:29px; } }
+/* Fit the shell inside the padded viewport, including the profile footer. */
+.page-container { height: 100dvh; min-height: 0; }
+.window-frame { height: auto; min-height: 0; flex: 1 1 0; }
+aside.sidebar { min-height: 0; border-radius: 14px; }
+.sidebar-bottom,.user-profile-bar { flex-shrink: 0; }
+main.main-viewport { min-height: 0; }
+.dept-pill,nav.sidebar-nav button,.filter-toolbar,.view-mode-toggle,.kpi-card,.table-container,.stat-box { border-radius: 9px; }
+.kanban-column,.kanban-column:first-child,.modal-content,.login-card { border-radius: 12px; }
+.kanban-card,.empty-col-card { border-radius: 8px; }
+.btn-primary,.btn-secondary,.btn-col-add-quick,.btn-add-in-empty,.header-icon-btn { border-radius: 8px; }
+.view-btn,.filter-select,.date-input-field,.card-product-tag { border-radius: 6px; }
+@media(max-width:860px) { aside.sidebar { height: auto; flex-shrink: 0; border-radius: 12px; } }

@@ -10,6 +10,7 @@ export default defineConfig({
     port: 3000,
 
     proxy: {
+      '/catalog-api': { target: 'https://api.uzautotrailer.uz', changeOrigin: true, secure: true, rewrite: p => p.replace(/^\/catalog-api/, '') },
       '/api': {
         target: 'https://crm-api.uzautotrailer.uz',
         changeOrigin: true,
